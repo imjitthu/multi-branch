@@ -15,7 +15,7 @@ pipeline {
     stages {
         stage ('SCM Details') {
             steps {
-                clean()
+                cleanWs()
                 echo "${env.COMMIT_MESSAGE}"
                 echo "${env.GIT_BRANCH}"
                 echo "${env.GIT_CHECKOUT_DIR}"
