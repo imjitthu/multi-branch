@@ -7,3 +7,5 @@ git branch -l //get the list of branches
 git tag test //add tag to git
 git push --tags //push tags to the origin
 git tag -l //get the all tags list
+
+only executes when changes happened in SCM
